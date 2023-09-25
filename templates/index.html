@@ -22,8 +22,8 @@
               <th colspan="2">Price</th>
             </tr>
           </thead>
+          {% for item in menu_items %}
           <tbody>
-            {% for item in menu_items %}
               <tr>
                 <td>{{item}}</td>
                 {% if "Coffee" in item %}
